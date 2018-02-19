@@ -1,0 +1,44 @@
+
+background-color: white;
+width: 400px;
+height:200px;
+padding:20px;
+display::first-line;
+text-align: right;
+
+.linki{
+  color: black;
+float: right;
+text-align: right;
+}
+#a{
+  width: 90px;
+  margin: 40px auto;
+  text-align: left;
+}
+#nav ul{
+  list-style: none;
+  padding: 0;
+  margin:0;
+}
+#nav li{
+  display: inline-block;
+}
+#nav ul li:hover {
+  background-color: white;
+}
+#nav ul li a:visited{
+  display:block;
+  padding: 15px;
+  background-color: yellow;
+}
+#nav ul li :hover > ul{
+  display: block;
+}
+#nav ul ul {
+  display: none;
+  position:absolute;
+}
+#nav ul ul li{
+  display: block;
+}
